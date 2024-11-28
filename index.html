@@ -6,23 +6,68 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 20px;
             background-color: #f0f0f0;
         }
-        h1 {
-            color: #333;
+        header {
+            background-color: #333;
+            color: white;
             text-align: center;
+            padding: 1rem;
         }
-        p {
-            line-height: 1.6;
-            color: #666;
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Claude Desktop Test</h1>
-    <p>This is a simple page created through GitHub API interactions.</p>
+    <header>
+        <h1>Claude Desktop Test Project</h1>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Welcome to Our Project</h2>
+        <p>This is a simple demonstration project created to explore GitHub API interactions. We're showcasing how to create, modify, and manage a repository programmatically.</p>
+        
+        <h3>Project Features</h3>
+        <ul>
+            <li>Dynamic HTML creation</li>
+            <li>Automated GitHub repository management</li>
+            <li>Continuous improvement through issues and pull requests</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>© 2024 Claude Desktop Test Project | Created through GitHub API</p>
+    </footer>
 </body>
 </html>
